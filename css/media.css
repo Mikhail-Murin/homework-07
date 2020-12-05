@@ -1,0 +1,55 @@
+@media (min-width: 850px) {
+  body {
+    font-size: 18px;
+  }
+  
+  div.book-photo {
+    margin-left: 10px;
+    margin-right: 66px;
+  }
+  
+  div.description {
+    width: calc(100% - 480px - 1em);
+  }
+  
+  div.service-pair-block,
+  div.photo-pair-block {
+    width: calc(50% - 0.5em / 2);
+    /* (0.5em / 2) - one of two whitespace compensation */
+  }
+}
+
+@media (max-width: 849.9px) {
+  body {
+    font-size: calc(2.1176vw * 0.3333 + 12px);
+  }
+  
+  div.description,
+  div.service-pair-block,
+  div.photo-pair-block {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 360px) {
+  div.person-photo {
+    width: calc(50% - 2em - 0.5em / 2);
+    /* (0.5em / 2) - one of two whitespace compensation */
+  }
+  
+  div.service {
+    width: calc(50% - 0.5em / 2);
+  }
+}
+
+@media (max-width: 359.9px) {
+  div.person-photo {
+    width: calc(100% - 2em);
+  }
+  
+  div.service {
+    width: 100%;
+  }
+}
+

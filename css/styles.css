@@ -1,0 +1,207 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background-color: White;
+}
+
+/* ====================================================== */
+/* section Header */
+section#header {
+  max-width: 1140px;
+  margin-top: 1.8888em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* book photo */
+div.book-photo {
+  display: inline-block;
+  margin-top: 4.2777em;
+  margin-bottom: 4.4444em;
+  vertical-align: middle;
+}
+
+div.book-photo img {
+  max-width: 22.4444em;
+  width: 100%;
+}
+/* end of book photo */
+
+/* book description */
+div.description {
+  display: inline-block;
+  max-width: 33.8888em;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.description h2 {
+  margin: 0em;
+  margin-top: 0em;
+  margin-left: 0.0833em;
+  font-size: 2.6666em;
+  line-height: 1.2;
+}
+
+.description h3 {
+  margin: 0em;
+  margin-top: 0.2em;
+  margin-left: 0.1333em;
+  font-size: 1.6666em;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.description p {
+  margin-top: 1.5555em;
+  margin-left: 0.2222em;
+  margin-bottom: 0em;
+}
+
+.description p.price {
+  margin-top: 0.5417em;
+  margin-left: 0.0833em;
+  font-size: 2.6666em;
+}
+
+.description button {
+  margin-left: 0.1250em;
+  font-family: inherit;
+  font-size: 1.3333em;
+  font-weight: bold;
+  border-width: 0.0833em;
+  border-style: solid;
+  border-color: #f05a22;
+  border-radius: 0.2083em;
+  outline-style: none;
+  cursor: pointer;
+}
+
+.description button.buy {
+  margin-top: 1.9167em;
+  margin-right: 1.2917em;
+  padding: 0.75em 1.75em;
+  color: white;
+  background-color: #f05a22;
+}
+
+.description button.buy:hover,
+.description button.buy:focus {
+  background-color: #ff763c;
+}
+
+.description button.details {
+  margin-top: 1.2917em;
+  margin-bottom: 4em;
+  padding: 0.75em 1.1667em;
+  color: #f05a22;
+  background-color: white;
+}
+
+.description button.details:hover,
+.description button.details:focus {
+  background-color: #fffdb7;
+}
+/* end of book description */
+/* end of section Header */
+
+/* ====================================================== */
+/* section Services */
+section#services {
+  background-color: #f2f2f2;
+}
+
+div#services-wrapper {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+  padding-top: 4.6111em;
+  padding-bottom: 5.5555em;
+  text-align: center;
+}
+
+#services h2 {
+  margin: 0em;
+  margin-bottom: 2em;
+  font-size: 1.6666em;
+  line-height: 1.2;
+}
+
+div.service-pair-block,
+div.service,
+div.service p {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+div.service-pair-block {
+  max-width: 32em;
+}
+
+div.service {
+  margin-top: 1em;
+}
+
+div.service-icon {
+  width: 3.1111em;
+  height: 3.1111em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+
+div.service-icon img {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div.service p {
+  max-width: 13.8888em;
+  margin: 0em 4%;
+}
+/* end of section Services */
+
+/* ====================================================== */
+/* section Who bought */
+section#who-bought {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4.6111em;
+  padding-bottom: 5.5555em;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+#who-bought h2 {
+  margin: 0em;
+  margin-bottom: 2em;
+  font-size: 1.6666em;
+  line-height: 1.2;
+}
+
+/* photo-gallery */
+div.photo-gallery {
+  margin: 0em -1em;
+}
+
+div.photo-pair-block {
+  display: inline-block;
+  max-width: calc((15.4444em + 1em + 0.5em) * 2);
+}
+
+div.person-photo {
+  display: inline-block;
+  height: 15.4444em;
+  margin: 1em 1em 1em;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+/* end of photo-gallery */
+/* end of section Who bought */
